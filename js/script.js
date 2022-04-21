@@ -34,10 +34,18 @@ document.addEventListener('click', (e) =>
     }
 });
 
-// show scroll up
 function scrollUp()
 {
     const scrollUp = document.getElementById('scroll-up');
-    scrollUp.classList.add('show-scroll');
-    window.addEventListener('scroll', scrollUp);
+    
+    // scroll-up visible when the scroll is higher than 750vh (after the header)
+    if(this.scrollY >= 750) 
+    {
+        scrollUp.classList.add('show-scroll');
+    }   
+    else 
+    {
+        scrollUp.classList.remove('show-scroll')
+    }
 }
+window.addEventListener('scroll', scrollUp)
