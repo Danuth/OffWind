@@ -142,6 +142,30 @@ img
     box-shadow: 0px 0px 18px -4px rgba(109, 109, 109, .64);
 }
 
+/* dark mode */
+
+.dark-mode
+{
+    --orange: #3b170d;
+    background-color: #0e1010;
+    color: #fff;
+}
+
+.dark-mode .navbar-cng
+{
+    background-color: #333;
+}
+
+.dark-mode .navbar-cng .logo
+{
+    color: #fff;
+}
+
+.dark-mode .navbar-cng .logo span
+{
+    color: #f56642;
+}
+
 /* navbar */
 
 .navbar
@@ -518,8 +542,26 @@ header
 }
 
 /* show scroll */
+
 .show-scroll
 {
     bottom: 1rem;
 }
 
+/* dark/light mode */
+
+.mode-cng
+{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    position: absolute;
+    left: 4rem;
+    bottom: 6rem;
+    color: #fff;
+}
+
+.cng-mode-name
+{
+    font-size: 1rem;
+}

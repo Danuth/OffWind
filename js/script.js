@@ -49,3 +49,9 @@ function scrollUp()
     }
 }
 window.addEventListener('scroll', scrollUp)
+
+var darkMode = document.getElementById('mode-btn');
+darkMode.onclick = function()
+{
+    document.body.classList.toggle('dark-mode');
+}
