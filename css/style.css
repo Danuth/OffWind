@@ -228,7 +228,7 @@ img
     transition: var(--trans);
 }
 
-.navbar-collapse-rmw
+.navbar-collapse-panel
 {
     transform: translateX(0)!important;
 }

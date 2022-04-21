@@ -17,20 +17,20 @@ window.addEventListener('scroll', () =>
 // show navbar
 navbarShowBtn.addEventListener('click', () =>
 {
-    navbarCollapseDiv.classList.add('navbar-collapse-rmw');
+    navbarCollapseDiv.classList.add('navbar-collapse-panel');
 });
 
 // close navbar
 navbarCloseBtn.addEventListener('click', () =>
 {
-    navbarCollapseDiv.classList.remove('navbar-collapse-rmw');
+    navbarCollapseDiv.classList.remove('navbar-collapse-panel');
 });
 
 document.addEventListener('click', (e) => 
 {
     if(e.target.id != "navbar-collapse" && e.target.id != "navbar-show-btn" && e.target.parentElement.id != "navbar-show-btn")
     {
-        navbarCollapseDiv.classList.remove('navbar-collapse-rmw');
+        navbarCollapseDiv.classList.remove('navbar-collapse-panel');
     }
 });
 
