@@ -84,6 +84,7 @@ button, input[type * "submit"]
     background-color: var(--orange);
     color: #fff;
     border: 1px solid var(--orange);
+    cursor: pointer;
 }
 
 .btn:hover
@@ -490,4 +491,37 @@ header
 
 
 /* footer */
+
+
+/* scroll up */
+
+.scrollup
+{
+    position: fixed;
+    right: .5rem;
+    bottom: -20%;
+    background-color: var(--orange);
+    padding: .5rem;
+    display: flex;
+    opacity: .5;
+    z-index: 10;
+    transition: .4s;
+}
+
+.scrollup_icon
+{
+    color: #fff;
+}
+
+.scrollup:hover
+{
+    opacity: .9;
+    transition: var(--trans);
+}
+
+/* show scroll */
+.show-scroll
+{
+    bottom: 1rem;
+}
 

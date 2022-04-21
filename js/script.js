@@ -34,3 +34,10 @@ document.addEventListener('click', (e) =>
     }
 });
 
+// show scroll up
+function scrollUp()
+{
+    const scrollUp = document.getElementById('scroll-up');
+    scrollUp.classList.add('show-scroll');
+    window.addEventListener('scroll', scrollUp);
+}
