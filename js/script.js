@@ -39,7 +39,7 @@ function scrollUp()
     const scrollUp = document.getElementById('scroll-up');
     
     // scroll-up visible when the scroll is higher than 750vh (after the header)
-    if(this.scrollY >= 750) 
+    if(this.scrollY >= 730) 
     {
         scrollUp.classList.add('show-scroll');
     }   

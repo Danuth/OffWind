@@ -450,11 +450,6 @@ header {
 }
 
 /* footer */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .footer {
     padding-block: 2rem;
@@ -527,14 +522,14 @@ header {
 
 .scrollup {
     position: fixed;
-    right: .5rem;
+    right: 1rem;
     bottom: -20%;
     background-color: var(--orange);
     padding: .5rem;
     display: flex;
     opacity: .5;
     z-index: 10;
-    transition: .4s;
+    transition: .3s;
 }
 
 .scrollup_icon {
