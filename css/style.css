@@ -150,6 +150,11 @@ img {
     color: #f56642;
 }
 
+.dark-mode .footer-link
+{
+    color: var(--light-gray);
+}
+
 /* navbar */
 
 .navbar {
@@ -451,9 +456,9 @@ header {
 
 /* footer */
 
-.footer {
+/* .footer {
     padding-block: 2rem;
-}
+} */
 
 .footer-container {
     max-width: 116rem;
@@ -493,7 +498,7 @@ header {
 
 .footer-link:hover,
 .footer-link:focus {
-    color: white;
+    color: #fff;
 }
 
 .logo-footer {
@@ -501,13 +506,18 @@ header {
     flex-direction: column;
     gap: 1.5rem;
     order: 1;
+    padding-top: 3rem;
+}
+
+.logo-footer span{
+    color: #fff;
 }
 
 .logo {
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: var(--dark);
 }
 
 .logo-footer .footer-list {
@@ -561,4 +571,10 @@ header {
 
 .cng-mode-name {
     font-size: 1rem;
+}
+
+.line{
+    height: .2rem;
+    background-color: #787878;
+    opacity: .5;
 }
