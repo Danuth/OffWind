@@ -92,6 +92,10 @@ input[type * "submit"] {
     padding: 4rem 0;
 }
 
+.py-1-5 {
+    padding: 1.5rem 0;
+}
+
 img {
     width: 100%;
     display: block;
@@ -460,7 +464,7 @@ header {
     padding-block: 2rem;
 } */
 
-.footer-container {
+/* .footer-container {
     max-width: 116rem;
     margin: 0 auto;
     padding: 0 2rem;
@@ -469,15 +473,15 @@ header {
 
 .grid--col {
     display: grid;
-}
+} */
 
-.top-footer {
+/* .top-footer {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    /*20rem for 1 fraction */
+    /*20rem for 1 fraction 
     gap: 1rem;
-}
+} */
 
-.footer-heading {
+/* .footer-heading {
     color: white;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
@@ -513,7 +517,7 @@ header {
     color: #fff;
 }
 
-.logo {
+.logo-footer-span {
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -526,6 +530,49 @@ header {
 
 .copyright-item {
     margin-top: auto;
+} */
+
+footer{
+    background-color: var(--orange);
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+footer .logo
+{
+    display: block;
+    font-size: 2rem !important;
+}
+
+.footer-item a{
+    font-size: 1.2rem;
+    color: #fff;
+    transition: var(--trans);
+}
+
+.footer-item a:hover{
+    color: #787878;
+}
+
+.footer-item ul{
+    padding: 0;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li{
+    margin: 0.5rem;
+}
+
+footer .copyright-item
+{
+    text-align: right;
+    margin-right: .5rem;
+    font-size: .8rem;
 }
 
 /* scroll up */

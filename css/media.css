@@ -13,7 +13,7 @@
         font-size: 1.4rem;
     }
 
-    .card-row {
+    .card-row, .footer-row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -22,6 +22,18 @@
     .card-item,
     .box {
         margin: 0;
+    }
+
+    .footer-row{
+        text-align: left;
+    }
+    .social-links{
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+    }
+    .social-links li:nth-child(1){
+        margin-left: 0;
     }
 }
 
@@ -81,5 +93,9 @@
 @media screen and (min-width: 1400px) {
     .card-row {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-row
+    {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
