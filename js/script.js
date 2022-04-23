@@ -34,6 +34,8 @@ document.addEventListener('click', (e) =>
     }
 });
 
+// scroll up function
+
 function scrollUp()
 {
     const scrollUp = document.getElementById('scroll-up');
@@ -50,9 +52,33 @@ function scrollUp()
 }
 window.addEventListener('scroll', scrollUp)
 
+// dark mode
+
 var darkMode = document.getElementById('mode-btn');
+
 darkMode.onclick = function()
 {
     document.body.classList.toggle('dark-mode');
 }
+
+// disable past dates
+
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var year = date.getFullYear();
+
+if(day < 10)
+{
+    day = '0' + day;
+}
+if(month < 10)
+{
+    month = '0' + month;
+}
+
+var minDate = year + '-' + month + '-' + day;
+
+document.getElementById('datepicker').setAttribute('min', minDate);
+document.getElementById('datepicker2').setAttribute('min', minDate);
 

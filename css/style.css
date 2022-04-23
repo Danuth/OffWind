@@ -543,6 +543,7 @@ footer .logo
 {
     display: block;
     font-size: 2rem !important;
+    margin-top: 1rem;
 }
 
 .footer-item a{
@@ -565,7 +566,7 @@ footer .logo
 }
 
 .social-links li{
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 footer .copyright-item
