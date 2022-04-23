@@ -34,6 +34,19 @@ document.addEventListener('click', (e) =>
     }
 });
 
+// popup
+var popup = document.getElementById('popup');
+
+openPopup.addEventListener('click', () =>
+{
+    popup.classList.add('open-popup');
+})
+
+closePopup.addEventListener('click', () =>
+{
+    popup.classList.remove('open-popup');
+})
+
 // scroll up function
 
 function scrollUp()

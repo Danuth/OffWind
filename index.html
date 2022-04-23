@@ -64,8 +64,8 @@
                     <input type="date" class="form-control" id="datepicker">
                     <label class="text">To: </label>
                     <input type="date" class="form-control" id="datepicker2">
-                    <input type="number" class="form-control" placeholder="# of travelers">
-                    <input type="submit" class="btn" value="Search">
+                    <input type="number" class="form-control" placeholder="# of travellers">
+                    <input type="submit" class="btn" value="Book Now">
                 </form>
             </div>
         </div>
@@ -281,19 +281,19 @@
         <div class="newsletter-container container">
             <div class="newsletter-content">
                 <div class="title-wrap">
-                    <span class="sm-title">Subscribe now to get the latest OffWind news!</span>
                     <h2 class="lg-title">Newsletter</h2>
+                    <span class="sm-title">Subscribe now to get the latest OffWind news!</span>
                 </div>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ad molestias
-                    eum deserunt maiores cumque consequuntur adipisci ut explicabo,
-                    eius facilis? Aspernatur corrupti quisquam eum, laboriosam distinctio
-                    numquam et sit esse quam, saepe delectus nihil.
-                </p>
                 <form class="flex newsletter-box">
                     <input type="email" class="form-control" placeholder="Enter email">
-                    <input type="submit" class="btn" value="Subscribe">
+                    <button type="button" class="btn" id="openPopup">Subscribe</button>
                 </form>
+            </div>
+            <div class="popup" id="popup">
+                <i class="fas fa-check"></i>
+                <h2>Thank You!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <button type="button" class="btn" id="closePopup">OK</button>
             </div>
         </div>
     </section>

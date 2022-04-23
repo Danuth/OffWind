@@ -458,6 +458,33 @@ header {
     gap: 1rem;
 }
 
+/* popup */
+
+.popup
+{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: var(--orange);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .4);
+    visibility: hidden;
+}
+
+.open-popup
+{
+    visibility: visible;
+}
+
+.popup i
+{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
 /* footer */
 
 /* .footer {
