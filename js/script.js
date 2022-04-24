@@ -27,36 +27,24 @@ document.addEventListener('click', (e) => {
     }
 });
 
-<<<<<<< HEAD
-function scrollUp() {
-=======
 // popup
 var popup = document.getElementById('popup');
 
-openPopup.addEventListener('click', () =>
-{
+openPopup.addEventListener('click', () => {
     popup.classList.add('open-popup');
 })
 
-closePopup.addEventListener('click', () =>
-{
+closePopup.addEventListener('click', () => {
     popup.classList.remove('open-popup');
 })
 
 // scroll up function
 
-function scrollUp()
-{
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
+function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
 
     // scroll-up visible when the scroll is higher than 750vh (after the header)
-<<<<<<< HEAD
-    if (this.scrollY >= 750) {
-=======
-    if(this.scrollY >= 730)
-    {
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
+    if (this.scrollY >= 730) {
         scrollUp.classList.add('show-scroll');
     }
     else {
