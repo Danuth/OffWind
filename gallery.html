@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Offwind</title>
     <!-- awesome fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css links -->
-    <link rel="stylesheet" href="css/style.css">   
-    <link rel="stylesheet" href="css/media.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
     <!-- navbar start -->
 
@@ -34,22 +38,223 @@
     </nav>
 
     <!-- navbar end -->
-
-    <!-- header start -->
-
-<header class="flex" id="header">
-    <div class="container">
-        <div class="header-title">
-            <h1>Leave Your Footprints</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure consequuntur
-                dolor quam. Ducimus in delectus ex molestias, modi velit?</p>
+    <!--gallery part-->
+    <section class="gallery-section">
+        <div class="gallery">
+            <div class="gallery-tagline">
+                <h2 class="first-heading">Book it out of here and Book it with Offwind!</h2>
+                <p class="gallery-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nihil
+                    aliquam architecto
+                    labore dolores et eligendi, vel delectus molestias ad
+                    officia earum. In sapiente accusamus accusantium ducimus! Eum,
+                    dolore aperiam!
+                </p>
+                <a href="#" class="btn-gallery btn--main">Explore the land of wonder</a>
+                <a href="#review-container" class="btn-gallery btn--sub">View more &darr;</a>
+            </div>
+            <div class="gallery-image">
+                <img src=images/gallery.png class="gallery-img" alt "">
+            </div>
         </div>
-        
-    </div>
-</header>
+    </section>
 
-<!-- header end -->
+    <section class="photo-section">
+        <div class="review-container" id="review-container">
+            <h2 class="h2-tagline">Reviews</h2>
+            <div class="reviews-slider" id="reviews-slider">
+                <img src="images/customers/0.jpg" class="reviews-img" id="customer-item">
+                <h5 class="customer-name">&mdash; Juliet Hobbs</h5>
+                <p id="customer-comments">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui
+                    deserunt
+                    ad,
+                    tempora ullam quisquam quaerat maiores modi sunt.1</p>
+                <a href="#review-container" class="btn-review initialBtn"><i class="fas fa-long-arrow-alt-left"></i></a>
+                <a href="#review-container" class="btn-review nextBtn"><i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+        </div>
 
-    
+
+        <div class="photo-list">
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-1.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-2.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-3.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-4.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-5.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-6.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-7.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-8.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-9.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-10.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-11.jpg" alt="" />
+            </figure>
+            <figure class="gallery-item">
+                <img src="images/Gallery/gallery-12.jpg" alt="" />
+            </figure>
+
+        </div>
+    </section>
+
+    <!--<footer class="footer">
+        <div class="footer-container">
+            <div class="top-footer grid--col">
+                <div class="logo-footer">
+                    <a href="index.html" class="logo">Off<span>wind</span></a>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright-item">Copyright &copy, 2022 by OffWind, Inc. All rights reserved. </p>
+                </div>
+                <div>
+                    <h6 class="footer-heading">Contacts</h6>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                2110 Rosewood Lane
+                                Khan Toul Kork, Phnom Penh (PP), 60944
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="tel:085 333 210" class="footer-link">
+                                Tel: (855)85 333 210
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="mailto:Offwind@gmail.com" class="footer-link">
+                                Offwind@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="footer-heading">About Us</h6>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                Gallery
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                Packages
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="footer-heading">Quick Links</h6>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                Privacy & terms
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-link">
+                                Help center
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <footer class="py-1-5">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="logo">Off<span>Wind</span></a>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio est doloremque dolores quasi totam ratione.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Other informations: </h2>
+                <ul>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Flight Details</a></li>
+                    <li><a href="#">Car Rental</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Quick Links: </h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright-item">Copyright &copy, 2022 by OffWind. All rights reserved. </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
+
 </html>
