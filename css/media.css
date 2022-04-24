@@ -23,7 +23,6 @@
     .box {
         margin: 0;
     }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -76,6 +75,44 @@
 
     .logo-footer {
         margin-right: 5rem;
+    }
+
+    .gallery {
+        max-width: 120rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .first-heading {
+        font-size: 3.5rem;
+    }
+
+    .photo-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .review-container {
+        width: 100%;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        /*1 column per fraction*/
+        gap: 4.6rem;
+    }
+
+    .gallery-img {
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .gallery-tagline {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .photo-section {
+        grid-template-columns: 1fr;
     }
 }
 
