@@ -522,13 +522,12 @@ footer .logo
 }
 
 .social-links{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
 .social-links li{
     margin: 0.5rem;
-    right: 20%;
 }
 
 footer .copyright-item
