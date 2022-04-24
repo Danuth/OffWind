@@ -155,8 +155,7 @@ img {
     color: #f56642;
 }
 
-.dark-mode .footer-link
-{
+.dark-mode .footer-link {
     color: var(--light-gray);
 }
 
@@ -461,8 +460,7 @@ header {
 
 /* popup */
 
-.popup
-{
+.popup {
     width: 400px;
     background: #fff;
     border-radius: 6px;
@@ -475,13 +473,11 @@ header {
     visibility: hidden;
 }
 
-.open-popup
-{
+.open-popup {
     visibility: visible;
 }
 
-.popup i
-{
+.popup i {
     font-size: 2rem;
     margin-top: 2rem;
 }
@@ -560,45 +556,43 @@ header {
     margin-top: auto;
 } */
 
-footer{
+footer {
     background-color: var(--orange);
     color: #fff;
     text-align: center;
     position: relative;
 }
 
-footer .logo
-{
+footer .logo {
     display: block;
     font-size: 2rem !important;
     margin-top: 1rem;
 }
 
-.footer-item a{
+.footer-item a {
     font-size: 1.2rem;
     color: #fff;
     transition: var(--trans);
 }
 
-.footer-item a:hover{
+.footer-item a:hover {
     color: #787878;
 }
 
-.footer-item ul{
+.footer-item ul {
     padding: 0;
 }
 
-.social-links{
+.social-links {
     display: flex;
     justify-content: center;
 }
 
-.social-links li{
+.social-links li {
     margin: 1rem;
 }
 
-footer .copyright-item
-{
+footer .copyright-item {
     text-align: right;
     margin-right: .5rem;
     font-size: .8rem;
@@ -649,7 +643,6 @@ footer .copyright-item
     font-size: 1rem;
 }
 
-<<<<<<< HEAD
 /*Gallery/review header section*/
 .grid {
     display: grid;
@@ -836,10 +829,10 @@ footer .copyright-item
 
 .gallery-item img:hover {
     transform: scale(1.2);
-=======
-.line{
+}
+
+.line {
     height: .2rem;
     background-color: #787878;
     opacity: .5;
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
 }
