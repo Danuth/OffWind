@@ -54,7 +54,7 @@ function scrollUp()
 <<<<<<< HEAD
     if (this.scrollY >= 750) {
 =======
-    if(this.scrollY >= 730) 
+    if(this.scrollY >= 730)
     {
 >>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
         scrollUp.classList.add('show-scroll');
@@ -68,15 +68,8 @@ window.addEventListener('scroll', scrollUp)
 // dark mode
 
 var darkMode = document.getElementById('mode-btn');
-<<<<<<< HEAD
+
 darkMode.onclick = function () {
-    document.body.classList.toggle('dark-mode');
-}
-
-=======
-
-darkMode.onclick = function()
-{
     document.body.classList.toggle('dark-mode');
 }
 
@@ -87,12 +80,10 @@ var day = date.getDate();
 var month = date.getMonth() + 1;
 var year = date.getFullYear();
 
-if(day < 10)
-{
+if (day < 10) {
     day = '0' + day;
 }
-if(month < 10)
-{
+if (month < 10) {
     month = '0' + month;
 }
 
@@ -101,4 +92,3 @@ var minDate = year + '-' + month + '-' + day;
 document.getElementById('datepicker').setAttribute('min', minDate);
 document.getElementById('datepicker2').setAttribute('min', minDate);
 
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
