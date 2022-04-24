@@ -649,7 +649,6 @@ footer .copyright-item
     font-size: 1rem;
 }
 
-<<<<<<< HEAD
 /*Gallery/review header section*/
 .grid {
     display: grid;
@@ -667,13 +666,13 @@ footer .copyright-item
     margin: 0 auto;
     /*center in the viewport*/
     align-items: center;
-    background-color: #fde0d9;
+    background-color: var(--orange);
     grid-template-columns: 1fr 1fr;
     gap: 9.6rem;
 }
 
 .gallery-section {
-    background-color: #fde0d9;
+    background-color: var(--orange);
     padding: 4.6rem 1.5rem;
     /* top-bottom: 9.6rem left-right: 1.5rem*/
 }
@@ -684,7 +683,7 @@ footer .copyright-item
     line-height: 1.3;
     color: Black;
     letter-spacing: -0.3rem;
-    /*to minimize the large spacing betweeen letters*/
+    /*to minimize the large spacing between letters*/
     margin-bottom: 3rem;
 }
 
@@ -836,10 +835,4 @@ footer .copyright-item
 
 .gallery-item img:hover {
     transform: scale(1.2);
-=======
-.line{
-    height: .2rem;
-    background-color: #787878;
-    opacity: .5;
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
 }

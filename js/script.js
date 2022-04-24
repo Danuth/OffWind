@@ -27,36 +27,11 @@ document.addEventListener('click', (e) => {
     }
 });
 
-<<<<<<< HEAD
 function scrollUp() {
-=======
-// popup
-var popup = document.getElementById('popup');
-
-openPopup.addEventListener('click', () =>
-{
-    popup.classList.add('open-popup');
-})
-
-closePopup.addEventListener('click', () =>
-{
-    popup.classList.remove('open-popup');
-})
-
-// scroll up function
-
-function scrollUp()
-{
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
     const scrollUp = document.getElementById('scroll-up');
 
     // scroll-up visible when the scroll is higher than 750vh (after the header)
-<<<<<<< HEAD
     if (this.scrollY >= 750) {
-=======
-    if(this.scrollY >= 730)
-    {
->>>>>>> 2464c842d831d33a55d38161d37b0c9dc7726afe
         scrollUp.classList.add('show-scroll');
     }
     else {
@@ -92,3 +67,15 @@ var minDate = year + '-' + month + '-' + day;
 document.getElementById('datepicker').setAttribute('min', minDate);
 document.getElementById('datepicker2').setAttribute('min', minDate);
 
+// popup
+var popup = document.getElementById('popup');
+
+openPopup.addEventListener('click', () =>
+{
+    popup.classList.add('open-popup');
+})
+
+closePopup.addEventListener('click', () =>
+{
+    popup.classList.remove('open-popup');
+})
