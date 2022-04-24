@@ -94,6 +94,7 @@ input[type * "submit"] {
 
 .py-1-5 {
     padding: 1.5rem 0;
+    padding-bottom: .5rem;
 }
 
 img {
