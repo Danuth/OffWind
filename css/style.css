@@ -142,6 +142,11 @@ img {
 
 /* dark mode */
 
+.cng-mode
+{
+    cursor: pointer;
+}
+
 .dark-mode {
     --orange: #3b170d;
     background-color: #0e1010;
@@ -558,22 +563,6 @@ footer .copyright-item {
 
 .show-scroll {
     bottom: 1rem;
-}
-
-/* dark/light mode */
-
-.mode-cng {
-    display: flex;
-    align-items: center;
-    column-gap: 2rem;
-    position: absolute;
-    left: 4rem;
-    bottom: 6rem;
-    color: #fff;
-}
-
-.cng-mode-name {
-    font-size: 1rem;
 }
 
 /*Gallery/review header section*/
