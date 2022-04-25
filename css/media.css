@@ -24,20 +24,6 @@
     .box {
         margin: 0;
     }
-
-    .footer-row {
-        text-align: left;
-    }
-
-    .social-links {
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
-        justify-content: start;
-    }
-
-    .social-links li:nth-child(1) {
-        margin-left: 0;
-    }
 }
 
 @media screen and (min-width: 992px) {
