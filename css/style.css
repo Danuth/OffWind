@@ -660,15 +660,15 @@ footer .copyright-item {
     margin: 0 auto;
     /*center in the viewport*/
     align-items: center;
-    background-color: #fde0d9;
+    background-color: var(--orange);
     grid-template-columns: 1fr 1fr;
     gap: 9.6rem;
 }
 
 .gallery-section {
-    background-color: #fde0d9;
-    padding: 4.6rem 1.5rem;
-    /* top-bottom: 9.6rem left-right: 1.5rem*/
+    background-color: var(--orange);
+    padding: 4.6rem 1.5rem 1.3rem 1.5rem;
+    /* top: 4.6rem, bottom: 1.3rem, left-right: 1.5rem*/
 }
 
 .first-heading {
@@ -677,7 +677,7 @@ footer .copyright-item {
     line-height: 1.3;
     color: Black;
     letter-spacing: -0.3rem;
-    /*to minimize the large spacing betweeen letters*/
+    /*to minimize the large spacing between letters*/
     margin-bottom: 3rem;
 }
 
@@ -737,8 +737,7 @@ footer .copyright-item {
 }
 
 .photo-section {
-    padding: 9.6rem 1.5rem;
-    display: grid;
+    padding: 4.6rem 1.5rem;
     grid-template-columns: 1fr 1fr;
     /*equally size*/
 }
@@ -755,6 +754,7 @@ footer .copyright-item {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .h2-tagline {
@@ -809,9 +809,6 @@ footer .copyright-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /*3 equal size column*/
-    gap: 1.6rem;
-    /*gap between each image*/
-    padding: 1.6rem;
 }
 
 .gallery-item img {
@@ -829,10 +826,4 @@ footer .copyright-item {
 
 .gallery-item img:hover {
     transform: scale(1.2);
-}
-
-.line {
-    height: .2rem;
-    background-color: #787878;
-    opacity: .5;
 }
