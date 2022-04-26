@@ -763,3 +763,94 @@ footer .copyright-item {
 .gallery-item img:hover {
     transform: scale(1.2);
 }
+
+/*CONTACT US page*/
+.contact-section {
+    padding: 9.6rem 1rem;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*2/3 for the first grid, 1/3 for the second grid*/
+    background-color: var(--orange);
+    box-shadow: 0 2.4rem 4.8rem rgba(109, 109, 109, .6);
+    border-radius: 15px;
+    /*make the border round*/
+    height: 55rem;
+    background-image: linear-gradient(to right bottom, #f8947b, var(--orange));
+}
+
+.contact-box {
+    padding: 1.5rem 2.5rem;
+    color: black;
+}
+
+.contact-img {
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.30), rgba(230, 125, 34, 0.30)), url('../images/contact-bg.jpg');
+    background-size: cover;
+    /*the background cover entirely*/
+}
+
+.contact-block .second-heading {
+    color: #2e1907;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.contact-form {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    /*display the label on its own line*/
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.contact-form input,
+.contact-form select {
+    width: 100%;
+    /*occupy the parent element*/
+    padding: 0.5rem;
+    font-size: 1rem;
+    /*increase the font-size of the input text*/
+    font-family: inherit;
+    /*inherit the root font-family*/
+    border: none;
+    background-color: #fcd1c6;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: inherit;
+}
+
+.contact-form input::placeholder {
+    color: #aaa;
+    /*make the color of the placeholder less faint*/
+}
+
+.contact-form *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5)
+}
+
+.btn--contact {
+    background-color: #45260a;
+    color: white;
+    align-self: end;
+    margin-bottom: 0.3rem;
+}
+
+.btn--contact::hover {
+    background-color: white;
+}
+
+.message {
+    width: 50rem;
+    height: 10rem;
+}

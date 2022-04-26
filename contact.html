@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Offwind</title>
     <!-- awesome fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css links -->
-    <link rel="stylesheet" href="css/style.css">   
-    <link rel="stylesheet" href="css/media.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
     <!-- navbar start -->
 
@@ -26,7 +30,6 @@
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
-                    <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
                 </ul>
             </div>
@@ -34,7 +37,111 @@
     </nav>
 
     <!-- navbar end -->
+    <section class="contact-section">
+        <!--section-cts-->
+        <div class="container contact">
+            <!---->
+            <div class="contact-block">
+                <!--cta-->
+                <div class="contact-box">
+                    <!--cta-text-box-->
+                    <h1 class="second-heading">
+                        Book your desire holidays with OffWind!
+                    </h1>
 
-    
+                    <form class="contact-form" action="#">
+                        <div>
+                            <label for="full-name">Full Name</label>
+                            <input id="full-name" type="text" placeholder="Juliet Hobbs" required="">
+
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" placeholder="me@example.com" required="">
+
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" type="phone" placeholder="Phone number" required="">
+
+                            <label for="select-where">Where did you hear from us?</label>
+                            <select id="select-where">
+                                <option value="">Choose one options: </option>
+                                <option value="friends">Friends and Family</option>
+                                <option value="youtube">Youtube</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="podcasts">Podcast</option>
+                                <option value="others">Others</option>
+                            </select>
+
+                            <label for="message">Message</label>
+                            <textarea id="message" class="message" placeholder="Write your message here....."
+                                required=""></textarea>
+                        </div>
+                        <button class="btn btn--contact">Contact us now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-img" alt="Photo of a map"></div>
+        </div>
+    </section>
+
+    <!--footer start-->
+    <footer class="py-1-5">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="logo">Off<span>Wind</span></a>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio est doloremque dolores quasi totam ratione.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Other informations: </h2>
+                <ul>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Flight Details</a></li>
+                    <li><a href="#">Car Rental</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Quick Links: </h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright-item">Copyright &copy, 2022 by OffWind. All rights reserved. </p>
+    </footer>
+    <!--footer end -->
+
+    <!-- scroll up start -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!-- scroll up end -->
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
 </body>
+
 </html>
