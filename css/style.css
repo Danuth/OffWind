@@ -142,8 +142,7 @@ img {
 
 /* dark mode */
 
-.cng-mode
-{
+.cng-mode {
     cursor: pointer;
 }
 
@@ -766,7 +765,7 @@ footer .copyright-item {
     box-shadow: 0 2.4rem 4.8rem rgba(109, 109, 109, .6);
     border-radius: 15px;
     /*make the border round*/
-    height: 55rem;
+    height: 60rem;
     background-image: linear-gradient(to right bottom, #f8947b, var(--orange));
 }
 
@@ -779,12 +778,15 @@ footer .copyright-item {
     background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.30), rgba(230, 125, 34, 0.30)), url('../images/contact-bg.jpg');
     background-size: cover;
     /*the background cover entirely*/
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .contact-block .second-heading {
     color: #2e1907;
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .contact-form {
@@ -796,15 +798,15 @@ footer .copyright-item {
 .contact-form label {
     display: block;
     /*display the label on its own line*/
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 1.2rem;
-    margin-top: 1.2rem;
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
 }
 
 .contact-form input,
 .contact-form select {
-    width: 100%;
+    width: 70%;
     /*occupy the parent element*/
     padding: 0.5rem;
     font-size: 1rem;
@@ -825,13 +827,14 @@ footer .copyright-item {
 
 .contact-form *:focus {
     outline: none;
-    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5)
+    box-shadow: 0 0 0 0.2rem rgba(253, 242, 233, 0.5)
 }
 
 .btn--contact {
     background-color: #45260a;
     color: white;
     align-self: end;
+    margin-top: 0.3rem;
     margin-bottom: 0.3rem;
 }
 
@@ -840,6 +843,25 @@ footer .copyright-item {
 }
 
 .message {
-    width: 50rem;
+    width: 90%;
     height: 10rem;
+}
+
+/*error*/
+input.invalid {
+    border: 0.1rem solid red;
+}
+
+.error-display {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.feedback {
+    font-size: 3rem;
+    margin-top: 20rem;
+    text-align: center;
 }

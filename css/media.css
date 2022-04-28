@@ -115,6 +115,14 @@
     .photo-section {
         grid-template-columns: 1fr;
     }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-img {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1400px) {
