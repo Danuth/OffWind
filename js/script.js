@@ -77,3 +77,4 @@ openPopup.addEventListener('click', () => {
 closePopup.addEventListener('click', () => {
     popup.classList.remove('open-popup');
 })
+

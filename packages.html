@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offwind</title>
+    <title>OffWind</title>
     <!-- awesome fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css links -->
-    <link rel="stylesheet" href="css/style.css">   
-    <link rel="stylesheet" href="css/media.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
 </head>
+
 <body>
     <!-- navbar start -->
 
     <nav class="navbar">
         <div class="container flex">
-            <a href="index.html" class="logo">Off<span>wind</span></a>
+            <a href="index.html" class="logo">Off<span>Wind</span></a>
 
             <button id="navbar-show-btn" type="button" class="flex"><i class="fas fa-bars"></i></button>
 
@@ -26,8 +31,9 @@
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
-                    <li class="nav-item"><a href="service.html" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <!-- dark/light mode -->
+                    <li class="nav-item"><i class="far fa-moon cng-mode nav-link" id="mode-btn"></i></li>
                 </ul>
             </div>
         </div>
@@ -35,6 +41,517 @@
 
     <!-- navbar end -->
 
-    
+    <!-- header start -->
+
+    <header class="flex" id="header">
+        <div class="container">
+            <div class="header-title">
+                <h1>Leave Your Footprints</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure consequuntur
+                    dolor quam. Ducimus in delectus ex molestias, modi velit?</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- package starts -->
+
+    <section class="py-4" id="package">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Popular Packages</span>
+                <h2 class="lg-title">Checkout Our Packages</h2>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Minus eius eos, impedit repellat adipisci sunt 
+                    non, dolore sapiente deleniti odit blanditiis eveniet 
+                    nemo nulla quibusdam.
+                </p>
+            </div>
+
+            <div class="card-row">
+                <ul class="package-list">
+                    <li>
+                        <div class="package-card">
+                            <figure class="card-banner">
+                                <img src="images/package/p-4.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="sm-title">Explore Cambodia</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Esse, perferendis eum deserunt nemo molestias temporibus.
+                                </p>
+                                <ul class="package-card-list">
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-clock"></i>
+                                            <p class="text">7D/6N</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-users"></i>
+                                            <p class="text">pax: 10</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p class="text">Cambodia</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(349 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>                                            
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">
+                                    $750
+                                    <span>/ per person</span>
+                                </p>
+                                <button class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="package-list">
+                    <li>
+                        <div class="package-card">
+                            <figure class="card-banner">
+                                <img src="images/package/p-5.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="sm-title">Into the Wildness</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Esse, perferendis eum deserunt nemo molestias temporibus.
+                                </p>
+                                <ul class="package-card-list">
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-clock"></i>
+                                            <p class="text">4D/3N</p>
+                                        </div>
+                                    </li>
+                                        
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-users"></i>
+                                            <p class="text">pax: 4</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p class="text">Mondulkiri</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(125 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">
+                                    $750
+                                    <span>/ per person</span>
+                                </p>
+                                <button class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="package-list">
+                    <li>
+                        <div class="package-card">
+                            <figure class="card-banner">
+                                <img src="images/package/p-6.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="sm-title">City Escapeway</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Esse, perferendis eum deserunt nemo molestias temporibus.
+                                </p>
+                                <ul class="package-card-list">
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-clock"></i>
+                                            <p class="text">3D/2N</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-users"></i>
+                                            <p class="text">pax: 5</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p class="text">Phnom Penh</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(190 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">
+                                    $350
+                                    <span>/ per person</span>
+                                </p>
+                                <button class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="package-list">
+                    <li>
+                        <div class="package-card">
+                            <figure class="card-banner">
+                                <img src="images/package/p-7.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="sm-title">Family Time in Angkor</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Esse, perferendis eum deserunt nemo molestias temporibus.
+                                </p>
+                                <ul class="package-card-list">
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-clock"></i>
+                                            <p class="text">3D/2N</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-users"></i>
+                                            <p class="text">pax: 4</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p class="text">Siem Reap</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(140 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">
+                                    $400
+                                    <span>/ per person</span>
+                                </p>
+                                <button class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="package-list">
+                    <li>
+                        <div class="package-card">
+                            <figure class="card-banner">
+                                <img src="images/package/p-8.jpg" alt="">                                
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="sm-title">Sealife</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Esse, perferendis eum deserunt nemo molestias temporibus.
+                                </p>
+                                <ul class="package-card-list">
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-clock"></i>
+                                            <p class="text">5D/4N</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-users"></i>
+                                            <p class="text">pax: 5</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p class="text">Kampot</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(406 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">
+                                    $150
+                                    <span>/ per person</span>
+                                </p>
+                                <button class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="package-list">
+                    <li>
+                        <div class="package-card">
+                            <figure class="card-banner">
+                                <img src="images/package/p-9.jpg" alt="">
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="sm-title">Customized Tour</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Esse, perferendis eum deserunt nemo molestias temporibus.
+                                </p>
+                                <ul class="package-card-list">
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-clock"></i>
+                                            <p class="text">n/a</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-users"></i>
+                                            <p class="text">n/a</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="package-card-item">
+                                        <div class="package-box">
+                                            <i class="fas fa-location-dot"></i>
+                                            <p class="text">n/a</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-price">
+                                <div class="wrapper">
+                                    <p class="reviews">(539 reviews)</p>
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="price">
+                                    n/a
+                                    <span>/ per person</span>
+                                </p>
+                                <button class="btn">Book Now</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- package ends -->
+
+    <!-- activity starts -->
+
+    <section class="py-4" id="activity">
+        <div class="container">
+            <div class="title-wrap">
+                <h2 class="lg-title">Other Activities</h2>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing 
+                    elit. Minus eius eos, impedit repellat adipisci sunt 
+                    non, dolore sapiente deleniti odit blanditiis eveniet 
+                    nemo nulla quibusdam.
+                </p>
+            </div>
+
+            <div class="activity-row">
+                <div class="activity-card">
+                    <figure class="card-banner">
+                        <img src="images/activity/a-1.jpg" alt="">
+                    </figure>
+                    <div class="activity-card-content">
+                        <h3 class="sm-title">Homestay</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quae quos ipsa accusamus. Ex, nihil vero sapiente repellat 
+                            repudiandae nam earum?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <figure class="card-banner">
+                        <img src="images/activity/a-2.jpg" alt="">
+                    </figure>
+                    <div class="activity-card-content">
+                        <h3 class="sm-title">Mekong River Cruise</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quae quos ipsa accusamus. Ex, nihil vero sapiente repellat 
+                            repudiandae nam earum?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <figure class="card-banner">
+                        <img src="images/activity/a-3.jpg" alt="">
+                    </figure>
+                    <div class="activity-card-content">
+                        <h3 class="sm-title">Khmer Cooking Class</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quae quos ipsa accusamus. Ex, nihil vero sapiente repellat 
+                            repudiandae nam earum?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <figure class="card-banner">
+                        <img src="images/activity/a-4.jpg" alt="">
+                    </figure>
+                    <div class="activity-card-content">
+                        <h3 class="sm-title">Bambook Train & Killing Cave Tour</h3>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quae quos ipsa accusamus. Ex, nihil vero sapiente repellat 
+                            repudiandae nam earum?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="line"></div>
+
+    <!-- footer start -->
+
+    <footer class="py-1-5">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="logo">Off<span>Wind</span></a>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio est doloremque dolores quasi totam ratione.</p>
+            </div>
+
+            <div class="footer-item">
+                <h2>Other information: </h2>
+                <ul>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Flight Details</a></li>
+                    <li><a href="#">Car Rental</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Quick Links: </h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h2>Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright-item">Copyright &copy, 2022 by OffWind. All rights reserved. </p>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- scroll up start -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!-- scroll up end -->
+
+    <!-- js script -->
+
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
