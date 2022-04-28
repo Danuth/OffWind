@@ -38,27 +38,27 @@
 
     <!-- navbar end -->
     <section class="contact-section">
-        <!--section-cts-->
         <div class="container contact">
-            <!---->
             <div class="contact-block">
-                <!--cta-->
                 <div class="contact-box">
-                    <!--cta-text-box-->
-                    <h1 class="second-heading">
+                    <h2 class="second-heading">
                         Book your desire holidays with OffWind!
-                    </h1>
+                    </h2>
 
-                    <form class="contact-form" action="#">
+                    <form class="contact-form">
                         <div>
-                            <label for="full-name">Full Name</label>
-                            <input id="full-name" type="text" placeholder="Juliet Hobbs" required="">
+                            <label for="fullName">Full Name</label>
+                            <input class="" id="fullName" type="text" placeholder="Juliet Anderson" name="name">
+                            <div class="error-display hidden">Full Name is required.</div>
 
                             <label for="email">Email Address</label>
-                            <input id="email" type="email" placeholder="me@example.com" required="">
+                            <input id="email" type="email" placeholder="me@example.com" name="email">
+                            <div class="error-display hidden">Email Address is required.</div>
+
 
                             <label for="phone">Phone Number</label>
-                            <input id="phone" type="phone" placeholder="Phone number" required="">
+                            <input id="phone" type="phone" placeholder="4444444444" name="phone">
+                            <div class="error-display hidden">Phone Number is required </div>
 
                             <label for="select-where">Where did you hear from us?</label>
                             <select id="select-where">
@@ -72,10 +72,13 @@
 
                             <label for="message">Message</label>
                             <textarea id="message" class="message" placeholder="Write your message here....."
-                                required=""></textarea>
+                                name="message"></textarea>
+                            <div class="error-display hidden">Your message is required. </div>
+
                         </div>
-                        <button class="btn btn--contact">Contact us now</button>
+                        <button class="btn btn--contact">SUBMIT</button>
                     </form>
+                    <div class="feedback hidden">Thank you for contacting us!</div>
                 </div>
             </div>
             <div class="contact-img" alt="Photo of a map"></div>

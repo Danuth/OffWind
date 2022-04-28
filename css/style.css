@@ -142,8 +142,7 @@ img {
 
 /* dark mode */
 
-.cng-mode
-{
+.cng-mode {
     cursor: pointer;
 }
 
@@ -153,19 +152,16 @@ img {
     color: #fff;
 }
 
-.dark-mode .navbar-cng
-{
+.dark-mode .navbar-cng {
     background-color: #333;
 }
 
-.dark-mode .package-card, 
-.dark-mode .activity-card
-{
+.dark-mode .package-card,
+.dark-mode .activity-card {
     background-color: #1f2020;
 }
 
-.dark-mode .navbar-cng .logo
-{
+.dark-mode .navbar-cng .logo {
     color: #fff;
 }
 
@@ -775,7 +771,7 @@ footer .copyright-item {
     box-shadow: 0 2.4rem 4.8rem rgba(109, 109, 109, .6);
     border-radius: 15px;
     /*make the border round*/
-    height: 55rem;
+    height: 60rem;
     background-image: linear-gradient(to right bottom, #f8947b, var(--orange));
 }
 
@@ -788,12 +784,15 @@ footer .copyright-item {
     background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.30), rgba(230, 125, 34, 0.30)), url('../images/contact-bg.jpg');
     background-size: cover;
     /*the background cover entirely*/
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .contact-block .second-heading {
     color: #2e1907;
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .contact-form {
@@ -805,15 +804,15 @@ footer .copyright-item {
 .contact-form label {
     display: block;
     /*display the label on its own line*/
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    margin-bottom: 1.2rem;
-    margin-top: 1.2rem;
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
 }
 
 .contact-form input,
 .contact-form select {
-    width: 100%;
+    width: 70%;
     /*occupy the parent element*/
     padding: 0.5rem;
     font-size: 1rem;
@@ -834,13 +833,14 @@ footer .copyright-item {
 
 .contact-form *:focus {
     outline: none;
-    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5)
+    box-shadow: 0 0 0 0.2rem rgba(253, 242, 233, 0.5)
 }
 
 .btn--contact {
     background-color: #45260a;
     color: white;
     align-self: end;
+    margin-top: 0.3rem;
     margin-bottom: 0.3rem;
 }
 
@@ -849,44 +849,57 @@ footer .copyright-item {
 }
 
 .message {
-    width: 50rem;
+    width: 90%;
     height: 10rem;
+}
+
+/*error display*/
+input.invalid {
+    border: 0.1rem solid red;
+}
+
+.error-display {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.feedback {
+    font-size: 3rem;
+    margin-top: 20rem;
+    text-align: center;
 }
 
 /* package */
 
-.package-list
-{
+.package-list {
     margin-bottom: 40px;
 }
 
-.package-card
-{
+.package-card {
     background: var(--light-gray);
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
 }
 
-.package-card .card-banner
-{
+.package-card .card-banner {
     height: 250px;
 }
 
-.package-card .card-banner img
-{
+.package-card .card-banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.package-card .card-content
-{
+.package-card .card-content {
     padding: 30px 20px;
 }
 
-.package-card-list
-{
+.package-card-list {
     background: #fff;
     max-width: 100%;
     display: flex;
@@ -898,13 +911,11 @@ footer .copyright-item {
     border-radius: 50px;
 }
 
-.package-card-item
-{
+.package-card-item {
     position: relative;
 }
 
-.package-box
-{
+.package-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -914,22 +925,19 @@ footer .copyright-item {
     font-size: 10px;
 }
 
-.package-box i
-{
+.package-box i {
     color: var(--orange);
     font-size: 13px;
 }
 
-.package-card .card-price
-{
+.package-card .card-price {
     background: var(--orange);
     color: #fff;
     padding: 25px 20px;
     text-align: center;
 }
 
-.package-card .card-price .wrapper
-{
+.package-card .card-price .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -938,13 +946,11 @@ footer .copyright-item {
     margin-bottom: 10px;
 }
 
-.package-card .card-price .reviews
-{
+.package-card .card-price .reviews {
     font-size: 15px;
 }
 
-.package-card .card-rating
-{
+.package-card .card-rating {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -952,26 +958,22 @@ footer .copyright-item {
     font-size: 14px;
 }
 
-.package-card .card-rating i:last-child
-{
+.package-card .card-rating i:last-child {
     color: #c5c5c5;
 }
 
-.package-card .price
-{
+.package-card .price {
     font-size: 12px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.package-card .price span
-{
+.package-card .price span {
     font-size: 17px;
     font-weight: initial;
 }
 
-.package-card .btn
-{
+.package-card .btn {
     background-color: #fff;
     color: var(--orange);
     margin-inline: auto;
@@ -979,8 +981,7 @@ footer .copyright-item {
 
 /* activity */
 
-.activity-card
-{
+.activity-card {
     display: block;
     background-color: #fff;
     padding: 0 3rem;
@@ -988,16 +989,14 @@ footer .copyright-item {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, .4);
 }
 
-.activity-row
-{
+.activity-row {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
 }
 
-.activity-row img
-{
+.activity-row img {
     display: flex;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
     margin-top: -2rem;
