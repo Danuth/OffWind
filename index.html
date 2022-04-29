@@ -22,17 +22,25 @@
         <div class="container flex">
             <a href="index.html" class="logo">Off<span>Wind</span></a>
 
-            <button id="navbar-show-btn" type="button" class="flex"><i class="fas fa-bars"></i></button>
+            <button id="navbar-show-btn" type="button" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
 
             <div id="navbar-collapse">
-                <button id="navbar-close-btn" type="button" class="flex"><i class="fas fa-times"></i></button>
+                <button id="navbar-close-btn" type="button" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+
                     <!-- dark/light mode -->
                     <li class="nav-item"><i class="far fa-moon cng-mode nav-link" id="mode-btn"></i></li>
+
+                    <!-- login form -->
                     <li class="nav-item"><i class="far fa-user login nav-link" id="login-btn"></i></li>
                 </ul>
             </div>
@@ -41,27 +49,34 @@
 
     <!-- navbar end -->
 
-    <!-- login form starts -->
+    <!-- login form start -->
 
     <div class="login-form-container">
         <div class="fas fa-times" id="close-login-btn"></div>
+
         <form action="">
-            <h3>Sign in</h3>
+            <h2>Sign in</h2>
             <span>Username</span>
             <input type="email" placeholder="enter email" class="box">
             <span>Password</span>
             <input type="password" placeholder="enter password" class="box">
+
             <div class="checkbox">
                 <input type="checkbox" id="remember-me">
                 <label for="remember-me"> Remember me </label>
             </div>
+
             <input type="submit" value="sign in" class="btn">
-            <p>Forget password? <a href="#">Click here</a></p>
-            <p>Don't have an account? <a href="#">Create one</a></p>
+            <p>
+                Forget password? <a href="#">Click here</a>
+            </p>
+            <p>
+                Don't have an account? <a href="#">Register here</a>
+            </p>
         </form>
     </div>
 
-    <!-- login form ends -->
+    <!-- login form end -->
 
     <!-- header start -->
 
@@ -69,9 +84,12 @@
         <div class="container">
             <div class="header-title">
                 <h1>Book it out of here</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure consequuntur
-                    dolor quam. Ducimus in delectus ex molestias, modi velit?</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure consequuntur
+                    dolor quam. Ducimus in delectus ex molestias, modi velit?
+                </p>
             </div>
+
             <div class="header-form">
                 <h2>Choose your Travel locations:</h2>
                 <form class="flex">
@@ -96,14 +114,19 @@
             <div class="title-wrap">
                 <span class="sm-title">know about some places before your travel</span>
                 <h2 class="lg-title">featured destinations</h2>
-                <div><a href="gallery.html" class="btn">View all destinations</a></div>
+
+                <div>
+                    <a href="gallery.html" class="btn">View all destinations</a>
+                </div>
             </div>
 
             <div class="card-row">
                 <div class="card-item my-2 shadow">
                     <img src="images/sr/sr-3.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Siem Reap</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -116,8 +139,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/kk/kk-2.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Koh Kong</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -130,8 +155,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/kp/kp-1.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Kampot</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -144,8 +171,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/pp/pp-2.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Phnom Penh</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -158,8 +187,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/md/md-4.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Mondulkiri</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -172,8 +203,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/bb/bb-6.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Battambong</span>
+                    
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -189,21 +222,26 @@
 
     <!-- destination end -->
 
-    <!-- packages starts -->
+    <!-- packages start -->
 
     <section class="py-4" id="package">
         <div class="container">
             <div class="title-wrap">
                 <span class="sm-title">Designed especially for you</span>
                 <h2 class="lg-title">Our packages</h2>
-                <div><a href="packages.html" class="btn">View all packages</a></div>
+
+                <div>
+                    <a href="packages.html" class="btn">View all packages</a>
+                </div>
             </div>
 
             <div class="card-row">
                 <div class="card-item my-2 shadow">
                     <img src="images/package/p-1.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Explore Cambodia</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -216,8 +254,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/package/p-2.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Family time in Cambodia</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -230,8 +270,10 @@
 
                 <div class="card-item my-2 shadow">
                     <img src="images/package/p-3.jpg" alt="">
+
                     <div class="card-item-content">
                         <span><i class="fas fa-map-marker-alt"></i> Cambodian Family Explorer</span>
+
                         <div>
                             <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -247,43 +289,54 @@
 
     <!-- packages end -->
 
-    <!-- services starts -->
+    <!-- services start -->
 
     <section class="py-4" id="services">
         <div class="container">
             <div class="title-wrap">
                 <span class="sm-title">other services that we offer</span>
                 <h2 class="lg-title">our services</h2>
-                <div><a href="packages.html" class="btn">View all services</a></div>
+
+                <div>
+                    <a href="#" class="btn">View all services</a>
+                </div>
             </div>
 
             <div class="services-container">
                 <div class="services-box">
                     <i class="fas fa-hotel"></i>
                     <h3>Affordable Hotels</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.
+                    </p>
                 </div>
 
                 <div class="services-box">
                     <i class="fas fa-utensils"></i>
                     <h3>Food & Drinks</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.
+                    </p>
                 </div>
 
                 <div class="services-box">
                     <i class="fas fa-globe-asia"></i>
                     <h3>Travel Guide</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.
+                    </p>
                 </div>
 
                 <div class="services-box">
                     <i class="fas fa-hiking"></i>
                     <h3>Adventures</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto incidunt et repellendus eum est delectus harum modi corrupti totam iste.
+                    </p>
                 </div>
             </div>
         </div>
@@ -300,19 +353,23 @@
                     <h2 class="lg-title">Newsletter</h2>
                     <span class="sm-title">Subscribe now to get the latest OffWind news!</span>
                 </div>
+
                 <form class="flex newsletter-box">
                     <input type="email" class="form-control" placeholder="Enter email" required>
                     <button type="button" class="btn" id="open-popup-btn">Subscribe</button>
                 </form>
             </div>
+
+            <!-- popup -->
             <div class="popup" id="popup">
                 <i class="fas fa-check"></i>
                 <h2>Thank You!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur.
+                </p>
                 <button type="button" class="btn" id="close-popup-btn">OK</button>
             </div>
         </div>
-        
     </section>
 
     <!-- newsletter end -->
@@ -325,8 +382,10 @@
         <div class="container footer-row">
             <div class="footer-item">
                 <a href="index.html" class="logo">Off<span>Wind</span></a>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio est doloremque dolores quasi totam ratione.</p>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio est doloremque dolores quasi totam ratione.
+                </p>
             </div>
 
             <div class="footer-item">
@@ -354,19 +413,16 @@
             <div class="footer-item">
                 <h2>Follow us on: </h2>
                 <ul class="social-links">
-                    <li>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>
-        <p class="copyright-item">Copyright &copy, 2022 by OffWind. All rights reserved. </p>
+
+        <p class="copyright-item">
+            Copyright &copy, 2022 by OffWind. All rights reserved. 
+        </p>
     </footer>
 
     <!-- footer end -->
