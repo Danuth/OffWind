@@ -400,38 +400,38 @@ header {
 
 /* services */
 
-#services .box-container {
+#services .services-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
 }
 
-#services .box-container .box {
+#services .services-container .services-box {
     flex: 1 1 30rem;
     border-radius: 0.5rem;
     padding: 1rem;
     text-align: center;
 }
 
-#services .box-container .box i {
+#services .services-container .services-box i {
     padding: 1rem;
     font-size: 2.5rem;
     color: var(--orange);
 }
 
-#services .box-container .box h3 {
+#services .services-container .services-box h3 {
     font-size: 1.5rem;
     color: #333;
 }
 
-#services .box-container .box p {
+#services .services-container .services-box p {
     font-size: 1rem;
     color: #666;
     padding: 1rem 0;
 }
 
-#services .box-container .box:hover {
+#services .services-container .services-box:hover {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
@@ -568,308 +568,6 @@ footer .copyright-item {
 
 .show-scroll {
     bottom: 1rem;
-}
-
-/*Gallery/review header section*/
-.grid {
-    display: grid;
-    row-gap: 9.6rem;
-    column-gap: 6.4rem;
-}
-
-.gallery {
-    /*1 rem = 10px*/
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /*2 equally sized columns*/
-    max-width: 130rem;
-    /*when the element is larger than container, it will occupy 100% of the container.*/
-    margin: 0 auto;
-    /*center in the viewport*/
-    align-items: center;
-    background-color: var(--orange);
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-}
-
-.gallery-section {
-    background-color: var(--orange);
-    padding: 4.6rem 1.5rem 1.3rem 1.5rem;
-    /* top: 4.6rem, bottom: 1.3rem, left-right: 1.5rem*/
-}
-
-.first-heading {
-    font-size: 4.2rem;
-    font-weight: 500;
-    line-height: 1.3;
-    color: Black;
-    letter-spacing: -0.3rem;
-    /*to minimize the large spacing between letters*/
-    margin-bottom: 3rem;
-}
-
-.gallery-description {
-    font-size: 1.1rem;
-    margin-bottom: 4rem;
-    line-height: 1.5;
-}
-
-.gallery-img {
-    width: 100%;
-    /*fill the entire parent element*/
-}
-
-.btn-gallery:link,
-.btn:visited {
-    background-color: var(--orange);
-    font-size: 0.8rem;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    /*3.2rem is double the size of 1.6rem*/
-    border-radius: 10px;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.8s
-        /*transition for both background-color and color*/
-}
-
-.btn--main:link,
-.btn--main:visited {
-    background-color: var(--orange);
-    color: white;
-    margin-right: 1.6rem;
-}
-
-.btn--main:hover,
-.btn--main:active {
-    background-color: gray;
-}
-
-.btn--sub:link,
-.btn--sub:visited {
-    background-color: white;
-    color: black;
-}
-
-.btn--sub:hover,
-.btn--sub:active {
-    background-color: #fef0ec;
-    box-shadow: inset 0 0 0 3px;
-    /*no offset, no blur, add shadow to the inside of the element using inset*/
-}
-
-/*review section*/
-.grid--2-cols {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.photo-section {
-    padding: 4.6rem 1.5rem;
-    grid-template-columns: 1fr 1fr;
-    /*equally size*/
-}
-
-.reviews-img {
-    width: 5.4rem;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
-}
-
-.review-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 3rem;
-    box-shadow: -0.1rem 0 3rem var(--light-gray);
-}
-
-.h2-tagline {
-    margin-bottom: 2rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.reviews-slider {
-    background-color: var(--orange);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    justify-content: flex-start;
-    padding: 30px;
-    border-radius: 2px;
-    position: relative;
-}
-
-.initialBtn,
-.nextBtn {
-    color: white;
-    font-size: 1.5rem;
-    width: 2.8rem;
-    height: 2.8rem;
-    max-width: 2.8rem;
-    max-height: 2.8rem;
-    line-height: 2.8rem;
-    border-radius: 50%;
-    text-align: center;
-    transition: all 0.5s ease-in;
-}
-
-.initialBtn {
-    position: absolute;
-    top: 15%;
-    right: 15%;
-}
-
-.nextBtn {
-    position: absolute;
-    top: 15%;
-    right: 5%;
-}
-
-.btn-review:hover {
-    background-color: gray;
-    color: white;
-}
-
-/*display of gallery*/
-.photo-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*3 equal size column*/
-}
-
-.gallery-item img {
-    display: block;
-    /*remove the spacing between images*/
-    width: 100%;
-    /*make the photo flexible*/
-    transition: all 0.4s;
-    /*make the transition smooth when scaling*/
-}
-
-.gallery-item {
-    overflow: hidden;
-}
-
-.gallery-item img:hover {
-    transform: scale(1.2);
-}
-
-/*CONTACT US page*/
-.contact-section {
-    padding: 9.6rem 1rem;
-}
-
-.contact {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    /*2/3 for the first grid, 1/3 for the second grid*/
-    background-color: var(--orange);
-    box-shadow: 0 2.4rem 4.8rem rgba(109, 109, 109, .6);
-    border-radius: 15px;
-    /*make the border round*/
-    height: 60rem;
-    background-image: linear-gradient(to right bottom, #f8947b, var(--orange));
-}
-
-.contact-box {
-    padding: 1.5rem 2.5rem;
-    color: black;
-}
-
-.contact-img {
-    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.30), rgba(230, 125, 34, 0.30)), url('../images/contact-bg.jpg');
-    background-size: cover;
-    /*the background cover entirely*/
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.contact-block .second-heading {
-    color: #2e1907;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-}
-
-.contact-form {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 1.5rem;
-    row-gap: 1.5rem;
-}
-
-.contact-form label {
-    display: block;
-    /*display the label on its own line*/
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 1.1rem;
-    margin-top: 1.1rem;
-}
-
-.contact-form input,
-.contact-form select {
-    width: 70%;
-    /*occupy the parent element*/
-    padding: 0.5rem;
-    font-size: 1rem;
-    /*increase the font-size of the input text*/
-    font-family: inherit;
-    /*inherit the root font-family*/
-    border: none;
-    background-color: #fcd1c6;
-    border-radius: 9px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-    color: inherit;
-}
-
-.contact-form input::placeholder {
-    color: #aaa;
-    /*make the color of the placeholder less faint*/
-}
-
-.contact-form *:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.2rem rgba(253, 242, 233, 0.5)
-}
-
-.btn--contact {
-    background-color: #45260a;
-    color: white;
-    align-self: end;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
-}
-
-.btn--contact::hover {
-    background-color: white;
-}
-
-.message {
-    width: 90%;
-    height: 10rem;
-}
-
-/*error display*/
-input.invalid {
-    border: 0.1rem solid red;
-}
-
-.error-display {
-    color: red;
-}
-
-.hidden {
-    display: none;
-}
-
-.feedback {
-    font-size: 3rem;
-    margin-top: 20rem;
-    text-align: center;
 }
 
 /* package */
@@ -1106,3 +804,4 @@ input.invalid {
     color:var(--orange);
     cursor: pointer;
 }
+

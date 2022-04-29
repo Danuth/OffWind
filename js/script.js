@@ -64,19 +64,21 @@ if (month < 10) {
 
 var minDate = year + '-' + month + '-' + day;
 
-document.getElementById('datepicker').setAttribute('min', minDate);
-document.getElementById('datepicker2').setAttribute('min', minDate);
+document.getElementById('date-picker').setAttribute('min', minDate);
+document.getElementById('date-picker2').setAttribute('min', minDate);
 
 // popup
 var popup = document.getElementById('popup');
 
-openPopup.addEventListener('click', () => {
-    popup.classList.add('open-popup');
-})
+document.querySelector('#open-popup-btn').onclick = () =>
+{
+    popup.classList.toggle('open-popup');
+}
 
-closePopup.addEventListener('click', () => {
+document.querySelector('#close-popup-btn').onclick = () =>
+{
     popup.classList.remove('open-popup');
-})
+}
 
 // login
 
@@ -91,3 +93,5 @@ document.querySelector('#close-login-btn').onclick = () =>
 {
     loginForm.classList.remove('active');
 }
+
+
