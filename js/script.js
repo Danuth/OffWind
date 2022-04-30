@@ -1,7 +1,8 @@
-let navbarDiv = document.querySelector('.navbar');
+var navbarDiv = document.querySelector('.navbar');
 const navbarCollapseDiv = document.getElementById('navbar-collapse');
 const navbarShowBtn = document.getElementById('navbar-show-btn');
 const navbarCloseBtn = document.getElementById('navbar-close-btn');
+
 window.addEventListener('scroll', () => {
     if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         navbarDiv.classList.add('navbar-cng');
@@ -26,6 +27,8 @@ document.addEventListener('click', (e) => {
         navbarCollapseDiv.classList.remove('navbar-collapse-panel');
     }
 });
+
+// scroll up
 
 function scrollUp() {
     const scrollUp = document.getElementById('scroll-up');
@@ -80,7 +83,7 @@ document.querySelector('#close-popup-btn').onclick = () => {
 
 // login
 
-let loginForm = document.querySelector('.login-form-container');
+var loginForm = document.querySelector('.login-form-container');
 
 document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('active');

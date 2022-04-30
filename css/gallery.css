@@ -53,7 +53,7 @@
 .btn:visited {
     background-color: var(--orange);
     font-size: 0.8rem;
-    color: white;
+    color: #fff;
     padding: 0.6rem 1.2rem;
     /*3.2rem is double the size of 1.6rem*/
     border-radius: 10px;
@@ -66,19 +66,19 @@
 .btn--main:link,
 .btn--main:visited {
     background-color: var(--orange);
-    color: white;
+    color: #fff;
     margin-right: 1.6rem;
 }
 
 .btn--main:hover,
 .btn--main:active {
-    background-color: gray;
+    background-color: #787878;
 }
 
 .btn--sub:link,
 .btn--sub:visited {
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: var(--dark);
 }
 
 .btn--sub:hover,
@@ -113,7 +113,6 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 3rem;
-    box-shadow: -0.1rem 0 3rem var(--light-gray);
 }
 
 .h2-tagline {
@@ -141,7 +140,7 @@
 
 .initialBtn,
 .nextBtn {
-    color: white;
+    color: #fff;
     font-size: 1.5rem;
     width: 2.8rem;
     height: 2.8rem;
@@ -166,8 +165,8 @@
 }
 
 .btn-review:hover {
-    background-color: gray;
-    color: white;
+    background-color: #787878;
+    color: #fff;
 }
 
 /*display of gallery*/
