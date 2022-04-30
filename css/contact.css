@@ -21,12 +21,9 @@
 }
 
 .contact-img {
-    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.30), rgba(230, 125, 34, 0.30)), url('../images/contact-bg.jpg');
-    background-size: cover;
+    background: linear-gradient(to right bottom, rgba(235, 151, 78, 0.30), rgba(230, 125, 34, 0.30)), url(../images/contact-bg.jpg) center/cover no-repeat;
     /*the background cover entirely*/
-    display: block;
-    width: 100%;
-    height: 100%;
+    height: 127.5vh;
 }
 
 .contact-block .second-heading {
@@ -110,4 +107,22 @@ input.invalid {
     font-size: 3rem;
     margin-top: 20rem;
     text-align: center;
+}
+
+.contact-logo,
+.contact-nav .nav-link
+{
+    color: black;
+}
+
+.contact-logo span
+{
+    color: var(--orange);
+}
+
+.dark-mode .contact-logo,
+.dark-mode .contact-nav .nav-link,
+.dark-mode .contact-logo span
+{
+    color: #fff;
 }

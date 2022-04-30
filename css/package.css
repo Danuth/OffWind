@@ -1,5 +1,14 @@
 /* package */
 
+.package-header {
+    min-height: 90vh;
+    padding-top: 7rem;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../images/package-bg.jpg) center/cover no-repeat;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
 .package-list {
     margin-bottom: 40px;
 }
@@ -145,6 +154,7 @@
 
 .booking-row {
     display: flex;
+
 }
 
 .booking-item {
@@ -172,7 +182,7 @@
 }
 
 .btn-remove {
-    color: white;
+    color: #fff;
     background-color: var(--orange);
     border: none;
     border-radius: .3rem;
@@ -198,6 +208,13 @@
     border: none;
 }
 
+.dark-mode .booking-column,
+.dark-mode .booking-row:last-child 
+{
+    border-bottom: 1px solid #fff;
+
+}
+
 .booking-total {
     text-align: end;
     margin-top: 10px;
@@ -212,9 +229,4 @@
 
 .booking-total-price {
     font-size: 1.1rem;
-}
-
-.btn-purchase {
-    display: block;
-    font-size: 1.75rem;
 }
