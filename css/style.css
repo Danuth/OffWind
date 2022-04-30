@@ -670,12 +670,14 @@ footer .copyright-item {
 }
 
 .reviews-img {
-    width: 5.4rem;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
+    height: 6rem;
+    width: 6.4rem;
+    margin-bottom: 0.5rem;
+    border-radius: 90%;
 }
 
 .review-container {
+    padding: 0rem 9rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -698,7 +700,7 @@ footer .copyright-item {
     align-items: flex-start;
     text-align: left;
     justify-content: flex-start;
-    padding: 30px;
+    padding: 20px;
     border-radius: 2px;
     position: relative;
 }

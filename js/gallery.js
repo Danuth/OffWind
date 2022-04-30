@@ -1,4 +1,4 @@
-(function () {
+/*(function () {
     const customerImg = document.querySelector('#customer-item')//customer images
     const customerProfile = document.querySelector('.customer-name')//customer name 
     const customerComment = document.querySelector('#customer-comments')//customer comment 
@@ -52,3 +52,79 @@
         })
     })
 })()
+*/
+const reviews = [
+    {
+        id: 1,
+        name: "Juliet Hobbs",
+        img:
+            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+        text:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.1",
+    },
+    {
+        id: 2,
+        name: "Michelle Betts",
+        img:
+            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+        text:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.2",
+    },
+    {
+        id: 3,
+        name: "John Shea",
+        img:
+            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+        text:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.3",
+    },
+    {
+        id: 4,
+        name: "Luke Rineer ",
+        img:
+            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+        text:
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.4",
+    },
+];
+
+const img = document.getElementById("customer-item");
+const user = document.getElementById("profile");
+const comment = document.getElementById("comments");
+
+const initialBtn = document.querySelector('.initialBtn')
+const nextBtn = document.querySelector('.nextBtn')
+
+//initial item 
+let initialItem = 0;
+
+//load initial item 
+window.addEventListener('DOMContentLoaded', function () {
+    showUsers(initialItem);
+});
+
+//show person based on item 
+function showUsers(person) {
+    const item = reviews[person];
+    img.src = item.img;
+    profile.textContent = item.name;
+    comments.textContent = item.text;
+}
+
+nextBtn.addEventListener('click', function () {
+    initialItem++;
+    if (initialItem > reviews.length - 1) {
+        initialItem = 0;
+    }
+    showUsers(initialItem);
+});
+
+//show previous item 
+initialBtn.addEventListener('click', function () {
+    initialItem--;
+    if (initialItem < 0) {
+        initialItem = reviews.length - 1;
+    }
+    showUsers(initialItem);
+});
+
