@@ -572,12 +572,10 @@ footer .copyright-item {
 
 /* login */
 
-.login
-{
+.login {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .gallery {
     /*1 rem = 10px*/
     display: grid;
@@ -679,21 +677,25 @@ footer .copyright-item {
 
 .review-container {
     padding: 0rem 9rem;
-=======
-.login-form-container{
->>>>>>> f556ce76080d898c22bf5e3874c13256793d0187
+}
+
+.comments {
+    font-size: 1.1rem;
+}
+
+.login-form-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:#ffffffe6;
-    position:fixed;
-    top:0; right:-105%;
+    background: #ffffffe6;
+    position: fixed;
+    top: 0;
+    right: -105%;
     z-index: 10000;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
 
-<<<<<<< HEAD
 .reviews-slider {
     background-color: var(--orange);
     display: flex;
@@ -704,16 +706,16 @@ footer .copyright-item {
     padding: 20px;
     border-radius: 2px;
     position: relative;
-=======
-.login-form-container.active{
-    right:0;
->>>>>>> f556ce76080d898c22bf5e3874c13256793d0187
 }
 
-.login-form-container form{
-    background:#d4d3d3;
+.login-form-container.active {
+    right: 0;
+}
+
+.login-form-container form {
+    background: #d4d3d3;
     border: 1rem;
-    width:  30rem;
+    width: 30rem;
     padding: 1rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
     border-radius: .5rem;
@@ -721,20 +723,20 @@ footer .copyright-item {
     height: 30rem;
 }
 
-.login-form-container form h3{
+.login-form-container form h3 {
     font-size: 1.2rem;
     text-transform: uppercase;
-    color:var(--orange);
+    color: var(--orange);
     text-align: center;
 }
 
-.login-form-container form span{
+.login-form-container form span {
     display: block;
     font-size: 1rem;
     padding-top: 1rem;
 }
 
-.login-form-container form .box{
+.login-form-container form .box {
     width: 92%;
     margin: .7rem 0;
     font-size: 1rem;
@@ -744,33 +746,33 @@ footer .copyright-item {
     text-transform: none;
 }
 
-.login-form-container form .checkbox{
+.login-form-container form .checkbox {
     display: flex;
     align-items: center;
     gap: .5rem;
     padding: 1rem 0;
 }
 
-.login-form-container form .checkbox label{
+.login-form-container form .checkbox label {
     font-size: .8rem;
     color: #787878;
     cursor: pointer;
 }
 
-.login-form-container form .btn{
+.login-form-container form .btn {
     text-align: center;
-    width:100%;
+    width: 100%;
     margin: 1rem 0;
 }
 
-.login-form-container form p{
+.login-form-container form p {
     padding-top: .8rem;
     color: #787878;
     font-size: .5rem;
 }
 
-.login-form-container form p a{
-    color:var(--orange);
+.login-form-container form p a {
+    color: var(--orange);
     text-decoration: underline;
 }
 
@@ -779,12 +781,11 @@ footer .copyright-item {
     transition: var(--trans);
 }
 
-.login-form-container #close-login-btn{
+.login-form-container #close-login-btn {
     position: absolute;
-    top: 1.5rem; 
+    top: 1.5rem;
     right: 2.5rem;
     font-size: 3rem;
-    color:var(--orange);
+    color: var(--orange);
     cursor: pointer;
 }
-

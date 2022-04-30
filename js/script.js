@@ -70,32 +70,24 @@ document.getElementById('date-picker2').setAttribute('min', minDate);
 // popup
 var popup = document.getElementById('popup');
 
-document.querySelector('#open-popup-btn').onclick = () =>
-{
+document.querySelector('#open-popup-btn').onclick = () => {
     popup.classList.toggle('open-popup');
 }
 
-document.querySelector('#close-popup-btn').onclick = () =>
-{
+document.querySelector('#close-popup-btn').onclick = () => {
     popup.classList.remove('open-popup');
-<<<<<<< HEAD
-})
-=======
 }
 
 // login
 
 let loginForm = document.querySelector('.login-form-container');
 
-document.querySelector('#login-btn').onclick = () =>
-{
+document.querySelector('#login-btn').onclick = () => {
     loginForm.classList.toggle('active');
 }
 
-document.querySelector('#close-login-btn').onclick = () =>
-{
+document.querySelector('#close-login-btn').onclick = () => {
     loginForm.classList.remove('active');
 }
 
 
->>>>>>> f556ce76080d898c22bf5e3874c13256793d0187
