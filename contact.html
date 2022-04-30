@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css links -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 
@@ -20,23 +21,50 @@
 
     <nav class="navbar">
         <div class="container flex">
-            <a href="index.html" class="logo">Off<span>wind</span></a>
+            <a href="index.html" class="logo">Off<span>Wind</span></a>
 
-            <button id="navbar-show-btn" type="button" class="flex"><i class="fas fa-bars"></i></button>
+            <button id="navbar-show-btn" type="button" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
 
             <div id="navbar-collapse">
-                <button id="navbar-close-btn" type="button" class="flex"><i class="fas fa-times"></i></button>
+                <button id="navbar-close-btn" type="button" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+
+                    <!-- dark/light mode -->
+                    <li class="nav-item"><i class="far fa-moon cng-mode nav-link" id="mode-btn"></i></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- navbar end -->
+
+    <!-- header start -->
+
+    <header class="flex" id="header">
+        <div class="container">
+            <div class="header-title">
+                <h1>Book it out of here</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure consequuntur
+                    dolor quam. Ducimus in delectus ex molestias, modi velit?
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- contact start -->
+
     <section class="contact-section">
         <div class="container contact">
             <div class="contact-block">
@@ -74,28 +102,35 @@
                             <textarea id="message" class="message" placeholder="Write your message here....."
                                 name="message"></textarea>
                             <div class="error-display hidden">Your message is required. </div>
-
                         </div>
+
                         <button class="btn btn--contact">SUBMIT</button>
                     </form>
+
                     <div class="feedback hidden">Thank you for contacting us!</div>
                 </div>
             </div>
+
             <div class="contact-img" alt="Photo of a map"></div>
         </div>
     </section>
 
-    <!--footer start-->
+    <!-- contact end -->
+
+    <!-- footer start -->
+
     <footer class="py-1-5">
         <div class="container footer-row">
             <div class="footer-item">
                 <a href="index.html" class="logo">Off<span>Wind</span></a>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Optio est doloremque dolores quasi totam ratione.</p>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Optio est doloremque dolores quasi totam ratione.
+                </p>
             </div>
 
             <div class="footer-item">
-                <h2>Other informations: </h2>
+                <h2>Other information: </h2>
                 <ul>
                     <li><a href="#">Accommodations</a></li>
                     <li><a href="#">Flight Details</a></li>
@@ -119,21 +154,17 @@
             <div class="footer-item">
                 <h2>Follow us on: </h2>
                 <ul class="social-links">
-                    <li>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>
+
         <p class="copyright-item">Copyright &copy, 2022 by OffWind. All rights reserved. </p>
     </footer>
-    <!--footer end -->
+
+    <!-- footer end -->
 
     <!-- scroll up start -->
 
