@@ -76,7 +76,7 @@ const reviews = [
         img:
             "https://res.cloudinary.com/du0tega1b/image/upload/v1651308406/1_wguorh.jpg",
         text:
-            "Due to the rise of covid-19 cases, we had to cancel our holiday packages. I contacted the team and they were very cooperative and works so well with us. I highly recommended OffWind to everyone",
+            "Due to the rise of covid-19 cases, I had to cancel my holiday packages. I contacted the team and they were very cooperative and works so well with me. I highly recommended OffWind to everyone.",
     },
     {
         id: 4,
