@@ -54,7 +54,7 @@ input[type * "submit"] {
 .text {
     font-weight: 400;
     opacity: .9;
-    line-height: 1.6;
+    line-height: 1.2;
     letter-spacing: 1px;
     padding: .5rem;
 }
@@ -377,24 +377,43 @@ header {
     z-index: 2;
     color: #fff;
     width: 100%;
-    padding: 1rem;
-    transform: translateY(68%);
+    padding: .5rem;
+    transform: translateY(80%);
     transition: var(--trans);
 }
 
 .card-item-content span {
     font-size: 1.2rem;
     display: block;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     text-transform: capitalize;
 }
 
-.card-item-content .text {
+.card-item:hover .card-item-content {
+    transform: translateY(0);
+}
+
+.package-item-content
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
     color: #fff;
+    width: 100%;
+    padding: .5rem;
+    transform: translateY(50%);
     transition: var(--trans);
 }
 
-.card-item:hover .card-item-content {
+.package-item-content span {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.card-item:hover .package-item-content {
     transform: translateY(0);
 }
 
