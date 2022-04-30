@@ -393,8 +393,7 @@ header {
     transform: translateY(0);
 }
 
-.package-item-content
-{
+.package-item-content {
     position: absolute;
     bottom: 0;
     left: 0;

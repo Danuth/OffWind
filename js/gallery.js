@@ -60,7 +60,7 @@ const reviews = [
         img:
             "https://res.cloudinary.com/du0tega1b/image/upload/v1651308395/0_o5pe05.jpg",
         text:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.1",
+            "OffWind does remarkably well in delivering lower-than-average prices, since the site is always aggregating the best options around.",
     },
     {
         id: 2,
@@ -68,7 +68,7 @@ const reviews = [
         img:
             "https://res.cloudinary.com/du0tega1b/image/upload/v1651308426/2_vvmrur.jpg",
         text:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.2",
+            "The site has a reputation for reliability and is amazingly easy to use, thanks to its simple, clean interface.",
     },
     {
         id: 3,
@@ -76,7 +76,7 @@ const reviews = [
         img:
             "https://res.cloudinary.com/du0tega1b/image/upload/v1651308406/1_wguorh.jpg",
         text:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.3",
+            "Due to the rise of covid-19 cases, we had to cancel our holiday packages. I contacted the team and they were very cooperative and works so well with us. I highly recommended OffWind to everyone",
     },
     {
         id: 4,
@@ -84,7 +84,7 @@ const reviews = [
         img:
             "https://res.cloudinary.com/du0tega1b/image/upload/v1651308431/3_r79nxo.jpg",
         text:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.4",
+            "I use OffWind ALL The Time! It is the BEST! I have never had any problems. I have never been disappointed! Keep Up the Great Customer Service!",
     },
 ];
 
