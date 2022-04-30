@@ -58,7 +58,7 @@ const reviews = [
         id: 1,
         name: "Juliet Hobbs",
         img:
-            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+            "https://res.cloudinary.com/du0tega1b/image/upload/v1651308395/0_o5pe05.jpg",
         text:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.1",
     },
@@ -66,7 +66,7 @@ const reviews = [
         id: 2,
         name: "Michelle Betts",
         img:
-            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+            "https://res.cloudinary.com/du0tega1b/image/upload/v1651308426/2_vvmrur.jpg",
         text:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.2",
     },
@@ -74,7 +74,7 @@ const reviews = [
         id: 3,
         name: "John Shea",
         img:
-            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+            "https://res.cloudinary.com/du0tega1b/image/upload/v1651308406/1_wguorh.jpg",
         text:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.3",
     },
@@ -82,7 +82,7 @@ const reviews = [
         id: 4,
         name: "Luke Rineer ",
         img:
-            "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+            "https://res.cloudinary.com/du0tega1b/image/upload/v1651308431/3_r79nxo.jpg",
         text:
             "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias fuga qui deserunt ad,tempora ullam quisquam quaerat maiores modi sunt.4",
     },

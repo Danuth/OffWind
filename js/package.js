@@ -1,4 +1,4 @@
-function load() {
+(function load() {
     var remove = document.getElementsByClassName('btn-remove');
 
     for (var i = 0; i < remove.length; i++) {
@@ -21,9 +21,7 @@ function load() {
     }
 
     document.getElementsByClassName('btn-booking')[0].addEventListener('click', bookingNow);
-}
-
-load();
+})();
 
 function updateBookingTotal() {
     var bookingItemContainer = document.getElementsByClassName('booking-items')[0];
@@ -113,6 +111,5 @@ function addTo(event) {
     addItemToList(title, price, imageSrc);
     updateBookingTotal();
 }
-
 
 

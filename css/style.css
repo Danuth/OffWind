@@ -540,7 +540,6 @@ footer .copyright-item {
     font-size: .8rem;
 }
 
-
 /* scroll up */
 
 .scrollup {
@@ -576,113 +575,6 @@ footer .copyright-item {
     cursor: pointer;
 }
 
-.gallery {
-    /*1 rem = 10px*/
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /*2 equally sized columns*/
-    max-width: 130rem;
-    /*when the element is larger than container, it will occupy 100% of the container.*/
-    margin: 0 auto;
-    /*center in the viewport*/
-    align-items: center;
-    background-color: var(--orange);
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-}
-
-.gallery-section {
-    background-color: var(--orange);
-    padding: 4.6rem 1.5rem 1.3rem 1.5rem;
-    /* top: 4.6rem, bottom: 1.3rem, left-right: 1.5rem*/
-}
-
-.first-heading {
-    font-size: 4.2rem;
-    font-weight: 500;
-    line-height: 1.3;
-    color: Black;
-    letter-spacing: -0.3rem;
-    /*to minimize the large spacing between letters*/
-    margin-bottom: 3rem;
-}
-
-.gallery-description {
-    font-size: 1.1rem;
-    margin-bottom: 4rem;
-    line-height: 1.5;
-}
-
-.gallery-img {
-    width: 100%;
-    /*fill the entire parent element*/
-}
-
-.btn-gallery:link,
-.btn:visited {
-    background-color: var(--orange);
-    font-size: 0.8rem;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    /*3.2rem is double the size of 1.6rem*/
-    border-radius: 10px;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.8s
-        /*transition for both background-color and color*/
-}
-
-.btn--main:link,
-.btn--main:visited {
-    background-color: var(--orange);
-    color: white;
-    margin-right: 1.6rem;
-}
-
-.btn--main:hover,
-.btn--main:active {
-    background-color: gray;
-}
-
-.btn--sub:link,
-.btn--sub:visited {
-    background-color: white;
-    color: black;
-}
-
-.btn--sub:hover,
-.btn--sub:active {
-    background-color: #fef0ec;
-    box-shadow: inset 0 0 0 3px;
-    /*no offset, no blur, add shadow to the inside of the element using inset*/
-}
-
-/*review section*/
-.grid--2-cols {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.photo-section {
-    padding: 4.6rem 1.5rem;
-    grid-template-columns: 1fr 1fr;
-    /*equally size*/
-}
-
-.reviews-img {
-    height: 6rem;
-    width: 6.4rem;
-    margin-bottom: 0.5rem;
-    border-radius: 90%;
-}
-
-.review-container {
-    padding: 0rem 9rem;
-}
-
-.comments {
-    font-size: 1.1rem;
-}
-
 .login-form-container {
     display: flex;
     align-items: center;
@@ -694,18 +586,6 @@ footer .copyright-item {
     z-index: 10000;
     height: 100%;
     width: 100%;
-}
-
-.reviews-slider {
-    background-color: var(--orange);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    justify-content: flex-start;
-    padding: 20px;
-    border-radius: 2px;
-    position: relative;
 }
 
 .login-form-container.active {
