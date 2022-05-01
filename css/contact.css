@@ -120,9 +120,9 @@ input.invalid {
     color: var(--dark);
 }
 
-#navbar-collapse .nav-link
+.contact-bar
 {
-    color: #fff;
+    color: var(--orange);
 }
 
 .contact-logo span
