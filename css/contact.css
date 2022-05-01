@@ -15,6 +15,11 @@
     background-image: linear-gradient(to right bottom, #f8947b, var(--orange));
 }
 
+.contact-bar
+{
+    color: var(--orange);
+}
+
 .contact-box {
     padding: 1.5rem 2.5rem;
     color: var(--dark);
@@ -113,6 +118,11 @@ input.invalid {
 .contact-nav .nav-link
 {
     color: var(--dark);
+}
+
+#navbar-collapse .nav-link
+{
+    color: #fff;
 }
 
 .contact-logo span
